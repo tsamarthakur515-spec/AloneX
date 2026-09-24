@@ -9,13 +9,13 @@ class Config:
         self.API_ID = int(getenv("API_ID", "17596251"))
         self.API_HASH = getenv("API_HASH", "e58343b4c0193e293e391daf97603fcd")
 
-        self.BOT_TOKEN = getenv("BOT_TOKEN", "Apna Bot Token")
-        self.MONGO_URL = getenv("MONGO_URL", "Apna Mongo Db Dalo")
+        self.BOT_TOKEN = getenv("BOT_TOKEN", "8800142370:AAHJQRb8VXhBZFj8OuboaLJ2A6KsIYeLUcg")
+        self.MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority")
 
-        self.LOGGER_ID = int(getenv("LOGGER_ID", "Apna Log Group Id Dalo"))
-        self.OWNER_ID = int(getenv("OWNER_ID", "Owner I'd dalo"))
+        self.LOGGER_ID = int(getenv("LOGGER_ID", "-1004318913888"))
+        self.OWNER_ID = int(getenv("OWNER_ID", "8841848847"))
         
-        self.SESSION1 = getenv("SESSION", "Apna String Dalo")
+        self.SESSION1 = getenv("SESSION", "BQC86fAAJm427hu3JSzjEVV9dGAJiw5JIFH0b7atzsnD0BTawqyeXbJyhNhePXwufBfyU1AQskaIdNPNM7-1ZuI01OO-J27wS13lxrmijdrFaxQPa0qLzTGkY91K2fEqNRQE3kD7XD_sJG72Wvx7BlEiVEp3ZwrZKsJFw9Ftotu6YWmCB7N8Q2nHAWwRRsrZA75AW0L7OKVFfQVBXjXjz_WazYpWwu9i2kNZG3pZ1PAN2Mw7rJQzaQg_vTzYXJLBJJX-EPqapHlFqG4vol4cbbxOfOgGqB2Jt02I6LpGsT9T4s7tsqnke2Bs426wqF1SGwSTUmlBAyqrY_HvNA1601rx_I58zwAAAAIYbOvjAA")
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
